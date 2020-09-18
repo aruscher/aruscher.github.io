@@ -1,3 +1,21 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+
+title = "Yak Shaving"
+theme = "hyde-hyde"
+
+## Site Settings
+[params]
+    author = "Andreas Ruscheinski"
+
+    # sidebar, copyright & license
+    copyright = "Andreas Ruscheinski"
+    since = 2020
+    license = "CC BY-SA 4.0"
+    licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+    showBuiltWith = true
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+    
